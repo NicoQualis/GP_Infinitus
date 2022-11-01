@@ -1,0 +1,35 @@
+{
+    "GO": {
+        "user": "admin700",
+        "pass": "GlobalProc",
+        "url_go": "https://v2adquirenciaarg.web.qa.global.globalprocessing.net.ar/"
+    },
+    "GBATCH": {
+        "user": "adminbatch",
+        "pass": "GlobalProc#1",
+        "url_gbatch": "https://v2batch.web.qa.global.globalprocessing.net.ar/",
+		"descripcion":"Entidad 700"  
+    },
+    "DB": {
+        "user": "qa_entidad700",
+        "pass": "GP.NS.QA#700",
+        "host": "gpwf-aq-qa-ent.cunfmyfynl3c.us-east-1.rds.amazonaws.com",
+        "SID": "GP247"
+    },
+    "DBPARAM": {
+        "user": "qa_param",
+        "pass": "Para_CoNs#sp",
+        "host": "parametria-qa.cvhla41mhkl1.us-east-1.rds.amazonaws.com",
+        "SID": "PARAMQA"
+    },
+    "OPI_CONFIG": {
+		"privateKey": "./OPI_Files/opiamazon.ppk",
+		"user": "ec2-user",
+        "host": "10.72.0.22",
+        "port": "22"
+    },
+	"ENTIDAD":{
+		"id_entidad": "700"
+	}
+		 
+}

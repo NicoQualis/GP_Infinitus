@@ -1,0 +1,40 @@
+{
+    "controlData": {
+        "dateTimeTransmission": "2022-02-15T19:06:23.525Z",
+        "dateTimeLocalTransaction": "2022-02-15T19:06:23.525Z",
+        "stan": "123456"
+    },
+    "financialData": {
+        "amountTransaction": "3000000",
+        "transactionCurrencyCode": "032"
+    },
+    "merchantData": {
+        "merchantId": "8228",
+        "softDescriptor": "Soy*isto",
+        "merchantCity": "CABACABACABA",
+        "merchantCategoryCode": "8011",
+        "serviceProviderName": "SoyListo",
+        "subMerchantId": "124",
+        "streetAddress": "Genova 3365",
+        "state": "009",
+        "postalCode": "5555"
+    },
+    "terminalData": {
+        "terminalId": "123",
+        "terminalType": "UNKNOWN",
+        "panCaptureCapability": "CONTACTLESS_EMV",
+        "pinCaptureCapability": "PIN_PAD",
+        "panEntryMode": "CONTACTLESS_EMV"
+    },
+    "cardData": {
+        "panNumber": "4123220000000222",
+        "cardExpirationDate": "2512",
+        "track2Data": "4123220000000222=25121011111199911111",
+        "iccData": "5F2A020032820258008407A0000000041010950500000400009A032002209C01009F02060000000001009F1008010103250000DAC19F1A0200329F2608F804CAE1FA8235039F2701809F33036040209F34034203009F360200679F3704261BAB9B",
+        "cardSequenceNumber": "000"
+    },
+    "securityData": {
+        "cardholderVerificationMethod": "MANUAL_SIGNATURE"
+    },
+    "cardholderData": {}
+}

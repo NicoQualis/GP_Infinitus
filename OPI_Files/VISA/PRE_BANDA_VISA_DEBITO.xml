@@ -1,0 +1,31 @@
+<isomsg direction="incoming">
+  <field id="0" value="0200"/>   <!--MTI 0200-autorizacion. 0400-reverso -->
+  <field id="2" value="4761340000000035"/> <!--tarjeta-->
+  <field id="3" value="000000"/>       <!-- codigo de operacion 00:compra(debito). 02;anular compra. 20:devolucion(credito). 22:anular devolucion -->
+  <field id="4" value="000000100000"/>   <!--importe transaccion ...0010012=$100,12-->
+  <field id="7" value="1129111010"/>  <!--fecha hora transmision MMDDHHMMSS-->
+  <field id="11" value="000558"/>   <!--trace POS, numero secuencia POS-->
+  <field id="12" value="120001"/>   <!--hora local HHMMSS-->
+  <field id="13" value="1231"/>    <!--fecha local MMDD-->
+  <field id="14" value="2512"/>     <!-- vto tarjeta YYMM solo ingreso 01-manual-->
+  <field id="22" value="900"/>    <!-- Modo ingreso(2-3) 01-manual, 90-banda,  05: chip, 07:contactless  --> 
+  <!--field id="23" value="001"/-->    <!-- Card Secuence Number CHIP --> 
+  <field id="24" value="001"/>   <!-- NII  -->
+  <field id="25" value="00"/>      <!-- 00 Transaccion normal, 01 Cliente no presente 02: autoservicio 04 Caja registradora 05: correo o telefono --> 
+  <!--field id="35" value="5323992277779085=25121011111199911111"/--> <!-- track 2 tarjeta=vto YYMM + codigo servicio ###... -->
+  <!--field id="37" value="041100010593"/-->   <!-- solo para anulacion, con valor de respuesta de autorizacion -->
+  <!--field id="38" value="037303"/-->       <!-- referencia solo para anulacion, con valor de respuesta de autorizacion -->  
+  <field id="41" value="5001031"/>     <!-- terminal -->
+  <field id="42" value="1"/>    <!-- comercio --> 
+  <field id="46" value="12         #0112000000477701"/>   <!-- datos adicionales 46, INDI=0-sin devolucion -->
+  <field id="48" value="001"/>  <!-- cuotas, para 3 cuotas: 003. para 12 cuotas 012 -->   
+  <field id="49" value="032"/>  <!-- moneda 858-Uruguay, 840-Dolares, 032-Argengina  -->    
+  <!--field id="52" value="3A253E8BF2005667" type="binary"/-->    <!-- pin 9086. pin block desencriptado 0490B6FFD7FFFF79 PIN block encriptado en DES 3A253E8BF2005667-->
+  <!--field id="54" value="000000006000"/-->    <!--importe adicional para caash back o propina-->
+  <!-- DE 55, solo para ingreso chip y contacless -->
+  <!--field id="55" value="5F2A020840820258008407A0000000041010950500000400009A031802069C01019F02060000000001059F1008010103250000DAC19F1A0208409F2608F804CAE1FA8235039F2701809F33036040209F34034103029F360200679F3704261BAB9B"/-->   
+  <field id="59" value="0080003012001000000020100012002000000020000001003102100010010707"/>  <!-- datos adicionales 59 con informacion de devolucion IVA -->
+  <field id="60" value="40iPOSS61"/>   <!-- version terminal, dato informativo -->
+  <field id="61" value="10000"/>  <!--posicion 5 = 0-desconocido. 2-solo banda. 3 chip. 8-contacless  -->
+  <field id="62" value="0001006"/>  <!-- ticket(1-4). lote(5-7) para cierre de lote -->
+</isomsg>

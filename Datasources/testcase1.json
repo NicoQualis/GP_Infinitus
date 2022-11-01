@@ -1,0 +1,14 @@
+{  
+    "1": {  
+        "nombre":"Flavia",   
+        "apellido":"Tirolo",
+        "genero":"female"
+        "categoria":"Sport"  
+    }
+    "2": {  
+        "nombre":"Fernando",   
+        "apellido":"Figliola",
+        "genero":"male"
+        "categoria":"Movie"  
+    }
+}  

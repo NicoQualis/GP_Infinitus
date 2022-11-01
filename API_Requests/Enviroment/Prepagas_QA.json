@@ -1,0 +1,16 @@
+{
+	"base_url": "qa-01:44301",
+	"RequestId": "1299149",
+	"Cliente": "IUDU",
+	"Producto": "98",
+	"Cuenta": "1316652",
+	"Tarjeta": "8692",
+	"TipoDoc": "DNI",
+	"NroDoc": "30289445",
+	"Grupo": "921",
+	"NumeroAutorizacion": "74275192",
+	"Corporate_Token": "",
+	"Sobre": "",
+	"Origen": "",
+	"CtaExt": ""
+}

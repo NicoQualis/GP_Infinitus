@@ -1,0 +1,25 @@
+<isomsg direction="incoming">
+  <field id="0" value="0200"/>
+  <field id="2" value="4761340000000035"/>
+  <field id="3" value="200000"/>
+  <field id="4" value="000000100000"/>
+  <field id="7" value="1129111010"/>
+  <field id="11" value="000558"/>
+  <field id="12" value="120001"/>
+  <field id="13" value="1231"/>
+  <field id="14" value="2512"/>
+  <field id="22" value="010"/>
+  <field id="24" value="001"/>
+  <field id="25" value="00"/>
+  <field id="37" value="{{DE37}}"/>
+  <field id="38" value="{{DE38}}"/>
+  <field id="41" value="5001031"/>
+  <field id="42" value="8228"/>
+  <field id="46" value="12         #0112000000477701"/>
+  <field id="48" value="001"/>
+  <field id="49" value="032"/>
+  <field id="59" value="0080003012001000000020100012002000000020000001003102100010010707"/>
+  <field id="60" value="40iPOSS61"/>
+  <field id="61" value="10000"/>
+  <field id="62" value="0001006"/>
+</isomsg>

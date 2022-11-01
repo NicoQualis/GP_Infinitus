@@ -1,0 +1,33 @@
+{
+    "controlData": {
+        "dateTimeTransmission": "2022-02-15T16:56:46.779Z",
+        "dateTimeLocalTransaction": "2022-02-15T16:56:46.779Z",
+        "stan": "123456"
+    },
+    "financialData": {
+        "amountTransaction": "2200",
+        "transactionCurrencyCode": "032"
+    },
+    "merchantData": {
+        "merchantId": "12",
+        "serviceProviderName": "SoyListo"
+    },
+    "terminalData": {
+        "terminalId": "1",
+        "panCaptureCapability": "MAGNETIC_STRIPE_TYPED",
+        "pinCaptureCapability": "PIN_PAD",
+        "panEntryMode": "ECOMMERCE",
+        "terminalType": "MPOS"
+    },
+    "cardData": {
+        "panNumber": "4123220000000222",
+        "cardExpirationDate": "2201",
+        "track2Data": "4123220000000222=25122011111199911111",
+        "iccData": null,
+        "cardSequenceNumber": "0"
+    },
+    "securityData": {
+        "cardholderVerificationMethod": "MANUAL_SIGNATURE"
+    },
+    "cardholderData": {}
+}

@@ -1,0 +1,32 @@
+{
+    "controlData": {
+        "dateTimeTransmission": "2022-03-04T22:36:46.856Z",
+        "dateTimeLocalTransaction": "2022-03-04T22:36:46.856Z",
+        "stan": "123456"
+    },
+    "financialData": {
+        "amountTransaction": "{{amountTransaction}}",
+        "transactionCurrencyCode": "{{transactionCurrencyCode}}"
+    },
+    "merchantData": {
+        "merchantId": "12",
+        "serviceProviderName": "SoyListo"
+    },
+    "terminalData": {
+        "terminalId": "{{terminalId}}"
+    },
+    "cardData": {
+        "panNumber": "{{panNumber}}"
+    },
+    "originalTransactionData": {
+        "controlData": {
+            "dateTimeTransmission": "{{dateTimeTransmission}}",
+            "dateTimeLocalTransaction": "{{dateTimeLocalTransaction}}",
+            "stan": "{{stan}}"
+        },
+        "responseData": {
+            "rrn": "{{rrn}}",
+            "authorizationId": "{{authorizationId}}"
+        }
+    }
+}

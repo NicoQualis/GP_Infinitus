@@ -1,0 +1,42 @@
+{
+    "controlData": {
+        "dateTimeTransmission": "2022-02-23T20:50:39.086Z",
+        "dateTimeLocalTransaction": "2022-02-23T20:50:39.086Z",
+        "stan": "123456"
+    },
+    "financialData": {
+        "amountTransaction": "{{amountTransaction}}",
+        "transactionCurrencyCode": "{{transactionCurrencyCode}}"
+    },
+    "merchantData": {
+        "merchantId": "2",
+        "serviceProviderName": "SoyListo"
+    },
+    "terminalData": {
+        "terminalId": "{{terminalId}}",
+        "terminalType": "UNKNOWN",
+        "panCaptureCapability": "CONTACTLESS_EMV",
+        "pinCaptureCapability": "PIN_PAD",
+        "panEntryMode": "CONTACTLESS_EMV"
+    },
+    "cardData": {
+        "panNumber": "{{panNumber}}",
+        "cardExpirationDate": "2201",
+        "track2Data": "{{panNumber}}=25122011111199911111",
+        "cardSequenceNumber": "0"
+    },
+    "securityData": {
+        "cardholderVerificationMethod": "MANUAL_SIGNATURE"
+    },
+    "originalTransactionData": {
+        "controlData": {
+            "dateTimeTransmission": "{{dateTimeTransmission}}",
+            "dateTimeLocalTransaction": "{{dateTimeLocalTransaction}}",
+            "stan": "{{stan}}"
+        },
+        "responseData": {
+            "rrn": "{{rrn}}",
+            "authorizationId": "{{authorizationId}}"
+        }
+    }
+}

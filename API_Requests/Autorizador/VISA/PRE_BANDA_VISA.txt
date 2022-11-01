@@ -1,0 +1,40 @@
+{
+    "controlData": {
+        "dateTimeTransmission": "2022-02-15T16:56:46.779Z",
+        "dateTimeLocalTransaction": "2022-02-15T16:56:46.779Z",
+        "stan": "123456"
+    },
+    "financialData": {
+        "amountTransaction": "90000",
+        "transactionCurrencyCode": "032"
+    },
+    "merchantData": {
+        "merchantId": "8228",
+        "softDescriptor": "Soy*isto",
+        "merchantCity": "ROSARIO",
+        "merchantCategoryCode": "8011",
+        "serviceProviderName": "SoyListo",
+        "subMerchantId": "124",
+        "streetAddress": "Genova 3365",
+        "state": "009",
+        "postalCode": "5555"
+    },
+    "terminalData": {
+        "terminalId": "1",
+        "panCaptureCapability": "MAGNETIC_STRIPE_ONLY",
+        "pinCaptureCapability": "PIN_PAD",
+        "panEntryMode": "MAGNETIC_STRIPE",
+        "terminalType": "MPOS"
+    },
+    "cardData": {
+        "panNumber": "4123220000000222",
+        "cardExpirationDate": "2201",
+        "track2Data": "4123220000000222=25122011111199911111",
+        "iccData": null,
+        "cardSequenceNumber": "0"
+    },
+    "securityData": {
+        "cardholderVerificationMethod": "MANUAL_SIGNATURE"
+    },
+    "cardholderData": {}
+}

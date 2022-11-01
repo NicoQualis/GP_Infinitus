@@ -1,0 +1,9 @@
+{
+    "DB": {
+        "user": "consulta",
+        "pass": "tWmupVvgK5sKwrJn",
+        "host": "10.86.2.181",
+        "port": "1521",
+        "SID": "GPINFQA"
+    }	 
+}
